@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ipykernel = "*"
+nltk = "*"
+pandas = "*"
+scipy = "*"
+numpy = "*"
+seaborn = "*"
+plotly = "*"
+Flask = "*"
+Flask-SQLAlchemy = "*"
+jsonify = "*"
+
+[requires]
+python_version = "3.8"
